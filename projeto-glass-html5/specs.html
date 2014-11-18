@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Tudo sobre Google Glass</title>
+	<link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+	<link rel="stylesheet" type="text/css" href="_css/specs.css"/>
+</head>
+<script  language="javascript" src="_javascript/funcoes.js"></script>
+<body>
+	<div id="interface">
+		<header id="cabecalho">
+		<hgroup>
+			<h1>Google Glass</h1>
+			<h2>A revolução do Google está chegando</h2>
+		</hgroup>
+
+		<img  id="icone"src="_imagens/especificacoes.png"/>
+		<nav id="menu">
+			<h1>Menu Principal</h1>
+			<ul onmouseout="mudaFoto('especificacoes	')">
+				<li onmouseover="mudaFoto('home')" ><a href="index.html">Home<a></li>
+				<li onmouseover="mudaFoto('especificacoes')" ><a href="specs.html">Especificações</a></li>
+				<li onmouseover="mudaFoto('fotos')"><a href="fotos.html">Fotos</a></li>
+				<li onmouseover="mudaFoto('multimidia')"><a href="multimidia.html">Multimídia</a></li>
+				<li onmouseover="mudaFoto('contato')"><a href="fale-conosco.html">Fale conosco</a></li>
+			</ul>
+		</nav>
+		</header>
+		<section id="corpo-full">
+			<article>
+				<header id="cabecalho-artigo">
+					<hgroup>
+						<h3>Glass > Especificações</h3>
+						<h1>Raio-X no Google Glass</h1>
+						<h2>por Pablo Rocha</h2>
+						<h3 class="direita">Atualizado em 01/Maio/2013</h3>
+					</hgroup>
+				</header>
+				Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.
+
+				<section id="conteudo">
+					<img src="_imagens/glass-esquema-marcado.jpg" usemap="#meumapa"/>
+					<map name="meumapa">
+						<area shap="rect" coords="179,202,270,260" href="google-glass.html#tela" target="janela"/>
+						<area shap="circle" coords="158,243,12" href="google-glass.html#camara" target="janela"/>
+						<area shap="circle" coords="73,52,12" href="google-glass.html#gadgets" target="janela"/>
+						<area shap="poly" coords="28,143,83,216,84,249,27,169" href="google-glass.html#sensores" target="janela"/>
+
+					</map>
+					<iframe src="google-glass.html" name="janela" id="frame-spec"></iframe>
+				</section>
+			</article>	
+		</section>
+
+<footer id="rodape">
+		<p>Copyright &copy; 2013 - by Pablo Rocha <br/>
+		<a href="http://facebook.com/cursosemvideo" target="_blank">Facebook</a> | 
+		<a href="http://twitter.com/cursosemvideo" target="_blank">Twitter<a/> </p>
+		</footer>
+	</div>	
+</body>
+</html>
